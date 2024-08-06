@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pine City Mall</title>
+    <link rel="stylesheet" href="styless.css"> 
+</head>
+<body>
+    <header>
+        <img src="images/pine%20tree.jpg" class="edit" alt="Pine City Mall Logo">
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stores.html">Shops</a></li>
+                <li><a href="metro.html">Nu-Metro</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <img src="images/feedback1.jpg" alt="Pine City Mall Interior" style="width:100%; height:auto; border-radius: 10px;">
+            <p>
+                <strong>Address:</strong><br>
+                Pine City Mall<br>
+                1234 Shopping Avenue<br>
+                Pine City, PC 56789<br>
+                Country
+            </p>
+            <p>
+                <strong>Phone:</strong><br>
+                +1 (123) 456-7890
+            </p>
+            <p>
+                <strong>Email:</strong><br>
+                <a href="mailto:info@pinecitymall.com">info@pinecitymall.com</a>
+            </p>
+            <p>
+                <strong>Business Hours:</strong><br>
+                Monday - Friday: 10:00 AM - 9:00 PM<br>
+                Saturday: 10:00 AM - 8:00 PM<br>
+                Sunday: 11:00 AM - 6:00 PM
+            </p>
+        </section>
+        
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <a href="thankyou.html"><button type="submit">Send Message</button></a>
+            </form>
+        </section>
+                    
+<img src="images/feedback.jpeg" alt="Pine City Mall Interior" style="width:100%; height:auto; border-radius: 10px;">
+    </main>
+    
+    <footer>
+        <p>© SAM-MEG the Creator. All rights reserved.</p>
+    </footer>
+</body>
+</html>

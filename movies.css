@@ -1,0 +1,103 @@
+   body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f5f5f5;
+        }
+        main {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .movie-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            padding: 30px;
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        .movie-details {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .movie-details img {
+            width: 320px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+        .movie-text {
+            padding-left: 30px;
+            max-width: 600px;
+        }
+        .movie-text h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .movie-text h3 {
+            font-size: 1.5em;
+            color: #444;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .movie-text p, .movie-text ul {
+            margin: 10px 0;
+        }
+        .movie-text ul {
+            list-style: none;
+            padding: 0;
+        }
+        .movie-text ul li {
+            margin-bottom: 10px;
+        }
+        .book-ticket-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .book-ticket-button:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+        .navigation-buttons a {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-align: center;
+            transition: background 0.3s ease, transform 0.3s ease;
+            width: 120px;
+        }
+        .navigation-buttons a:hover {
+            background: #555;
+            transform: scale(1.05);
+        }
